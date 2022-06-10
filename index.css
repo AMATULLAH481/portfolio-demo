@@ -1,0 +1,67 @@
+body{
+    background-image: url(./pencil-background.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+a:hover{
+    border: 2px solid beige;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 4px;
+    width: 10%;
+    height: 5vh;
+    background: beige;
+    color:rgb(25, 30, 87);
+  text-align: center;
+}
+#registration:hover{
+   width: 15%;
+   padding: 2px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.left-container{
+    margin: 5ch;
+}
+#text{
+    display: none;
+}
+#my-picture{
+    border: 2px solid rgb(211, 164, 9);
+    border-radius: 40rem;
+    height: 60vh;
+    width: 35vw;
+    margin: 10ch;
+}
+@media  (max-width:650px){ 
+    nav{
+        padding: 15px;
+        justify-content: space-between;
+    }
+    a{
+        font-size: 20px;
+    }
+    #text{
+        display: inline;
+    }
+    #my-picture{
+        height: 40vh;
+        width: 50vw;
+    }
+}
