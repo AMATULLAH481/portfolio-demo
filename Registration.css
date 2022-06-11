@@ -1,0 +1,87 @@
+body{
+    background-image: url(./pencil-background.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 12px;
+    text-align: center;
+}
+a:hover{
+    border: 2px solid beige;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 4px;
+    width: 10%;
+    height: 5vh;
+    background: beige;
+    color:rgb(25, 30, 87);
+  text-align: center;
+}
+#registration:hover{
+    width: 15%;
+    padding: 2px;
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ label{
+    text-align: center;
+    margin: 20px;
+ }
+ input[type=text]{
+    border: 2px solid rgba(255, 225, 1, 0.702);
+    border-radius: 2rem;
+    height: 5vh;
+    width: 70vw;
+ }
+ input[type=number]{
+    border: 2px solid rgba(255, 225, 1, 0.702);
+    border-radius: 2rem;
+    height: 5vh;
+    width: 70vw;
+ }
+ #gender{
+    border: 2px solid rgba(255, 225, 1, 0.702);
+    border-radius: 2rem;
+    height: 5vh;
+    width: 70vw;
+ }
+ option{
+    background-color: rgb(63, 120, 167);
+    color: rgb(0, 0, 0);
+ }
+ #State{
+    border: 2px solid rgba(255, 225, 1, 0.702);
+    border-radius: 2rem;
+    height: 5vh;
+    width: 70vw;
+ }
+ input[type=email]{
+    border: 2px solid rgba(255, 225, 1, 0.702);
+    border-radius: 2rem;
+    height: 5vh;
+    width: 70vw;
+ }
+ input[type=password]{
+    border: 2px solid rgba(255, 225, 1, 0.702);
+    border-radius: 2rem;
+    height: 5vh;
+    width: 70vw;
+ }
+ input[type=confirmpassword]{
+    border: 2px solid rgba(255, 225, 1, 0.702);
+    border-radius: 2rem;
+    height: 5vh;
+    width: 70vw;
+ }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Registration.css">
+    <title>Registration Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html"> About Me</a>
+            <a href="./contactme.html"> Contact Me</a>
+            <a href="./Registration-page.html" id="registration">  Registration-page</a>
+            <a href="./login.html"> Login-page</a>
+        </nav>
+    </header>
+    <form action="Registration-page.html">
+        <label for="first-name">First-Name</label>
+        <input type="text" id="first-name" name="first-name" placeholder="First-Name"  required>
+        <label for="last-name"> Last Name</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+        <label for="Phonenumber">Phone Number</label>
+        <input type="number" id="number" name="number" placeholder="Phone Number" required>
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender" required>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="non-binary"> Non-Binary</option>
+        </select>
+        <label for="country"> Country</label>
+        <input type="text" id="country" name="country" placeholder="Country" required>
+        <label for="State"> State</label>
+        <input type="text " id="State" name="State" placeholder="State/Province" required>
+        <label for="email"> Email </label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <label for="password"> Password</label>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <label for=" confirm password"> Confirm Password</label>
+        <input type="confirmpassword" id="confirm password" name="confirm password" placeholder="Confirm Password"  required>
+    </form>
+</body>
+</html>
