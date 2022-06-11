@@ -1,0 +1,93 @@
+body{
+    background-image: url(./chat-callout.jpg);
+    background-size: 1oovw;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 12px;
+    text-align: center;
+}
+a:hover{
+    border: 2px solid beige;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 4px;
+    width: 10%;
+    height: 5vh;
+    background: beige;
+    color:rgb(25, 30, 87);
+  text-align: center;
+}
+#registration:hover{
+    width: 15%;
+    padding: 2px;
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+ }
+label{
+    margin: 20px;
+}
+
+input[type=text]{
+    border: 2px solid pink;
+    border-radius: 2rem;
+    width: 50vw;
+    height: 5vh;
+}
+input[type=email]{
+    border: 2px solid pink;
+    border-radius: 2rem;
+    width: 50vw;
+    height: 5vh;
+}
+input[type=message]{
+    border: 2px solid pink;
+     border-radius: 2rem;
+     width: 50vw;
+     height: 10vh;
+}
+button{
+    background-color: pink;
+    margin: 20px;
+    font-size: 20px;
+    width: 25vw;
+    height: 10vh;
+    border: 2px solid pink;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 2px;
+}
+button:hover{
+    background-color: purple;
+    color: white;
+    border: 2px solid purple;
+}
+@media (max-width:297px){
+    input[type=text]{
+        width: 100vw;
+    }
+    input[type=email]{
+        width: 100vw;
+      
+    }
+    input[type=message]{
+        width: 100vw;
+    }
+    button{
+        width: 70vw;
+    }
+}
